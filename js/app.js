@@ -18,7 +18,7 @@ while (invalido) {
     if (!isNaN(opcionUsuario) && opcionUsuario >= 0 && opcionUsuario <= 2) {
         invalido = false;
     } else {
-        alert('Elige una opcion valida !!!');
+        alert('Elige una opcion invalida !!!');
     }
 }
 
